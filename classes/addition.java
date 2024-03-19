@@ -1,16 +1,11 @@
 package classes;
 
-/**
- * main
- */
-public class addition {
+class addition {
     addition() {
-        super();
-        System.out.println("Constructor Called");
+        System.out.println("Called");
     }
 
-    // main function
     public static void main(String[] args) {
-        addition geek = new addition();
-    }System.out.println("Try programiz.pro");
+        addition obj = new addition();
+    }
 }
